@@ -24,7 +24,7 @@ generate.boolean = function () {
 };
 
 garbage.boolean = function () {
-    return generate.boolean(count)[1];
+    return generate.boolean()[1];
 };
 
 generate.number = function () {
@@ -33,7 +33,7 @@ generate.number = function () {
 };
 
 garbage.number = function () {
-    return generate.number(count)[1];
+    return generate.number()[1];
 };
 
 generate.array = function (count) {
